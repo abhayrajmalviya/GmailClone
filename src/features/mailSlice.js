@@ -10,7 +10,8 @@ const initialState = {
 export const mailSlice = createSlice({
   name: 'mail',
   initialState,
-  // The `reducers` field lets us define reducers and generate associated actions
+
+
   reducers: {
     selectMail: (state,action) =>{
        state.selectMail = action.payload;

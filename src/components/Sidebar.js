@@ -24,9 +24,9 @@ function Sidebar() {
   return (
     <SidebarContainer>
         <Button 
-        startIcon={<AddIcon  fontSize="large"/> }
-        className="Sidebar__Compose"
-        onClick={()=> dispatch(openSendMessage())}
+            startIcon={<AddIcon  fontSize="large"/> }
+            className="Sidebar__Compose"
+            onClick={()=> dispatch(openSendMessage())}
         >
             Compose
         </Button>
